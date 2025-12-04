@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "skills-mcp": {
+      "autoApprove": [
+        "list_skills",
+        "read_skill_document",
+        "find_helpful_skills",
+      ],
+      "disabled": true,
+      "timeout": 60,
+      "type": "streamableHttp",
+      "url": "http://....../mcp"
+    }
+  }
+}
